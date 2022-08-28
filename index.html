@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Evas Ramos">
+    <link rel="shortcut icon" href="imagens/favicon.png"/>
+    <title>DECODIFICADOR DE TEXTO</title>
+    <meta name="description" content="Meu sistema para criptografar e desccriptografar um texto."/>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="scripts/script.js"></script>
+    
+    
+</head>
+<body id="fundosite" onload="carregar()">
+    <header>
+      <h3 id="saudacao">saudação inicial</h3>
+      </header>
+        
+    <section>
+        
+        <div id="textodigitado">
+            <br><img id="logoalura" src="imagens/alura.png">
+            <h2>Decodificador de Texto</h2>
+            <br>
+            <textarea id="areatexto" cols="35" rows="5" placeholder="Digite seu texto ..."></textarea>
+            <h4>Digite apenas letras minúsculas e sem acento.</h4>
+            <input type="button" value="Criptografar" id="botao1" onclick="criptografar()">
+            <button id="botao3" type="hidden" onclick="apagarTexto()">Limpar</button></div>
+            
+        </div>
+        <div id="imagemsubstituida">
+            <h2>Texto Criptografado</h2>
+            <br>
+            <textarea id="areatexto2" cols="35" rows="5" placeholder="Que pena! Nenhum texto criptografado encontrado por aqui. Digite seu texto ao lado." ></textarea>
+            <img id="boneco" src="imagens/boneco.png">
+            <div class="container">
+                <input type="button" value="Descriptografar" id="botao2" onclick="descriptograrar()">
+                <button id="botao4" type="hidden" onclick="copiar()">Copiar</button>
+                        
+        </div>
+        
+    </section>
+    
+    <footer>
+        <a href="https://www.facebook.com/evasramoss/" target="_blank"><img src="imagens/facebook.png" class=" fa imgfacebook" ></a>
+        <a href="https://api.whatsapp.com/send?phone=5579988277141&text=Ol%C3%A1!%20Pode%20deixar%20sua%20mensagem%20que%20responderei%20o%20quanto%20antes." target="_blank"><img src="imagens/whatsapp.png" class="fa imgwhatsapp"></a>
+        <a href="https://www.instagram.com/evas.ramos/" target="_blank"><img src="imagens/instagram.png" class="fa imginstagram"></a>
+        <a href="https://twitter.com/evas_ramos" target="_blank"><img src="imagens/twitter.png" class="fa imgtwitter" ></a>
+        <a href="https://www.youtube.com/channel/UCPsBMprDi8GI32lhAwv2kPg/" target="_blank"><img src="imagens/youtube.png" class="fa imgyoutube" ></a>
+        <p class="copy">&copy; Evas Ramos Decodificador de texto. Hoje é  <span class="dataeano">data com ano</span></p>
+    </footer>
+    
+</body>
+</html>

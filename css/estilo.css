@@ -1,0 +1,309 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+    body{
+      background: rgba(2, 12, 57, 0.8);
+      font-family: 'Montserrat', sans-serif;
+      background-size: cover;
+      background-position: center;
+      font-weight: normal;
+      text-align: center;
+      color: #ffffff;
+      margin: 0 auto;
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  header{
+    top: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 2px;
+    
+  }
+    
+    
+    section{
+        background-image:  url("matrix.gif");
+        background-repeat: repeat;
+        width: 80%;
+        align-content: center;
+        border-radius: 50px 50px 50px 50px;
+        padding:  20px 20px 20px 20px;
+        margin: auto;       
+        box-shadow: rgba(0, 0, 0, 0.377) 5px 5px 10px;
+        
+        
+    }
+    footer{
+        background-color: rgba(0, 0, 0, 0.507);
+        color: rgb(255, 255, 255);
+        margin: 0px 0px 0px 0px;
+        text-align: center;
+        font: italic 10pt arial;
+        padding: 2px 2px 2px 2px;
+        width: 100%;
+        height: auto;
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        
+    }
+    .manha{
+        
+        background: linear-gradient(to bottom, rgb(255, 207, 50),
+        rgb(185, 142, 0));
+        height: auto;
+      }
+  
+      .tarde{
+      
+        background: linear-gradient(to bottom, rgba(15, 255, 135, 0.87),
+        rgba(8, 27, 44, 0.6));
+  
+  
+      }
+  
+      .noite{
+      
+        background: linear-gradient(to bottom, rgb(41, 16, 0),
+        rgba(0,0,0, 0.6));
+  
+  
+      }
+  
+      .fa {
+          color: #FFF;
+          font-size: 1em !important;
+          padding: 10px;
+          width: 18px;
+          text-align: center;
+          text-decoration: none;
+          margin: 2px 2px;
+          border-radius: 50%;
+          border-style: solid;
+          border-width: 2px;
+          border-color: #fff;
+        }
+        .fa:hover {
+          transition: all 0.35s ease-out;
+        }
+        .imgfacebook:hover,
+        .imgfacebook:focus  { 
+          background-color: #3B5998;
+          border-color: #3B5998;
+        }
+        .imgwhatsapp:hover,
+        .imgwhatsapp:focus { 
+          background-color: #00b44b;
+          border-color: #00b44b;
+        }
+        .imginstagram:hover,
+        .imginstagram:focus { 
+          background-color: tomato;
+          border-color: tomato;
+        }
+        .imgyoutube:hover,
+        .imgyoutube:focus { 
+          background-color: #bb0000;
+          border-color: #bb0000;
+        }
+        .imgtwitter:hover,
+        .imgtwitter:focus { 
+          background-color: #00bbbb;
+          border-color: #00bbbb;
+        }
+
+
+        div {
+          
+          width: 100%;
+          height: auto;
+          display: inline-block;
+      }
+
+
+
+        #textodigitado {
+          background-color: #FFFFFF;
+          width: 49%;
+          display: inline-block;
+          position: relative;
+          float: left;
+          border-radius: 40px;
+          margin-right: 1%;
+           
+      }
+        #imagemsubstituida {
+          background-color: #FFFFFF;
+          width: 49%;
+          display: inline-block;
+          position: relative;
+          float: right;
+          border-radius: 40px;
+          margin-left: 1%;
+          
+      }
+
+      
+
+      #logoalura {
+
+        width: 8%;
+        height: auto;
+        align:left;
+      }
+
+      h2{
+        font-size: 15px;
+        color: #3B5998;
+      }
+
+      h4{
+        color: #3B5998;
+        font-size: 13px;
+        text-align: center;
+      }
+
+      #areatexto{
+        width: 80%;
+        color:#3B5998;
+        background-color:#f8f8f8;
+        border: 2px;
+        border-color: #f8f8f8;
+        border-radius: 10px;
+        font-size: 22px;
+        margin: 2px;
+        outline:none;
+        padding: 4px;
+
+      }
+
+      #areatexto:hover {
+        background-color:#f0efef;
+        transition: 0.7s;
+        border-color: #f0efef;
+        border-radius: 10px;
+            }
+       
+            textarea::placeholder {
+              color: #3B5998;
+            }     
+
+
+
+            #areatexto2{
+              width: 80%;
+              height: 125px;
+              color:#3B5998;
+              border: 2px;
+              border-color: #e4e4e4;
+              border-radius: 10px;
+              font-size: 15px;
+              margin: 2px;
+              outline:none;
+              padding: 4px;
+      
+            }
+
+            #boneco{
+
+              width: 50%;
+              height: auto;
+              text-align: center;
+            }
+      
+                             
+
+      #botao1{
+        border: 2px;
+        border-radius: 10px;
+        border-color: #3B5998;
+        background-color: #3B5998;
+        color: #FFFFFF;
+        padding: 10px;
+        margin: 8px;
+        font-size: 16px;
+        box-shadow: 0px 0px 2px 0px rgb(0,0,0);
+        cursor: pointer;
+        
+      }
+
+
+      #botao1:hover {
+        background-color:#001a63;
+        transition: 0.7s;
+    }
+
+    #botao2{
+      border: 2px;
+      border-radius: 10px;
+      border-color: #6e6e6e;
+      background-color: #6e6e6e;
+      color: #FFFFFF;
+      padding: 10px;
+      margin: 8px;
+      font-size: 16px;
+      box-shadow: 0px 0px 2px 0px rgb(0,0,0);
+      cursor: pointer;
+      
+    }
+
+
+    #botao2:hover {
+      background-color:#414141;
+      transition: 0.7s;
+  }
+
+  #botao3{
+    border: 2px;
+    border-radius: 10px;
+    border-color: #6e6e6e;
+    background-color: #6e6e6e;
+    color: #FFFFFF;
+    padding: 10px 30px 10px 30px;
+    margin: 8px;
+    font-size: 16px;
+    box-shadow: 0px 0px 2px 0px rgb(0,0,0);
+    cursor: pointer;
+    
+  }
+
+
+  #botao3:hover {
+    background-color:#414141;
+    transition: 0.7s;
+}
+
+
+#botao4{
+  border: 2px;
+  border-radius: 10px;
+  border-color: #3B5998;
+  background-color: #3B5998;
+  color: #FFFFFF;
+  padding: 10px 30px 10px 30px;
+  margin: 8px;
+  font-size: 16px;
+  box-shadow: 0px 0px 2px 0px rgb(0,0,0);
+  cursor: pointer;
+  
+}
+
+
+#botao4:hover {
+  background-color:#414141;
+  transition: 0.7s;
+}
+
+
+
+.container{
+
+  display: none;
+}
+
+      
